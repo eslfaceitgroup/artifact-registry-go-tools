@@ -30,7 +30,7 @@ Handle Go authentication with Google Cloud Artifact Registry Go Repositories.
 
 Add to your GOAUTH environment variable:
 
-  GOAUTH="GOPROXY=direct go run github.com/GoogleCloudPlatform/artifact-registry-go-tools/cmd/goauth@latest <location>"
+  export GOAUTH="sh -c 'GOPROXY=direct go run github.com/GoogleCloudPlatform/artifact-registry-go-tools/cmd/goauth@latest <location>'"
 
 To support multiple locations, add the command multiple times to the GOAUTH variable (semicolon-separated).
 
