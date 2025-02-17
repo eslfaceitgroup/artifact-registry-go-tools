@@ -22,7 +22,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/GoogleCloudPlatform/artifact-registry-go-tools/pkg/auth"
+	"github.com/ESLFACEITGROUP/artifact-registry-go-tools/pkg/auth"
 )
 
 const help = `
