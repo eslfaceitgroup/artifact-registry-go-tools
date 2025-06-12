@@ -22,8 +22,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ESLFACEITGROUP/artifact-registry-go-tools/pkg/auth"
-	"github.com/ESLFACEITGROUP/artifact-registry-go-tools/pkg/netrc"
+	"github.com/eslfaceitgroup/artifact-registry-go-tools/pkg/auth"
+	"github.com/eslfaceitgroup/artifact-registry-go-tools/pkg/netrc"
 )
 
 const help = `

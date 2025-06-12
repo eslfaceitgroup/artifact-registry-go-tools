@@ -25,7 +25,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/ESLFACEITGROUP/artifact-registry-go-tools/pkg/auth"
+	"github.com/eslfaceitgroup/artifact-registry-go-tools/pkg/auth"
 )
 
 var arTokenConfigRegexp = regexp.MustCompile("machine (.*go.pkg.dev)\nlogin oauth2accesstoken\npassword (.*)")
