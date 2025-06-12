@@ -1,4 +1,4 @@
-module github.com/ESLFACEITGROUP/artifact-registry-go-tools
+module github.com/eslfaceitgroup/artifact-registry-go-tools
 
 go 1.18
 
